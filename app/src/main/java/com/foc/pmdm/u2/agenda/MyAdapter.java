@@ -52,7 +52,7 @@ public class MyAdapter extends BaseAdapter {
 
         tvNombre.setText(lista[posicion].nombre);
         tvApellido.setText(lista[posicion].apellido);
-        tvEdad.setText(lista[posicion].edad);
+        tvEdad.setText(Integer.toString(lista[posicion].edad));
         return vFila;
     }
 }
